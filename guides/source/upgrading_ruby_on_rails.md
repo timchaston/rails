@@ -276,9 +276,9 @@ If your application uses Spring, it needs to be upgraded to at least version 3.0
 undefined method `mechanism=' for ActiveSupport::Dependencies:Module
 ```
 
-Also, make sure [`config.cache_classes`][] is set to `false` in `config/environments/test.rb`.
+Also, make sure [`config.reload`][] is set to `true` in `config/environments/test.rb`.
 
-[`config.cache_classes`]: configuring.html#config-cache-classes
+[`config.reload`]: configuring.html#config-reload
 
 ### Sprockets is now an optional dependency
 
